@@ -1,11 +1,11 @@
 
-INSERT INTO employees (id, name, position, salary)
-VALUES (3, 'John Doe', 'Software Engineer', 70000),
-       (4, 'Jane Smith', 'Data Analyst', 68000);
+INSERT INTO Employees (id, name, position, salary)
+VALUES (3, 'John Cena', 'Software Engineer', 70000),
+       (4, 'Steive Smith', 'Data Analyst', 68000);
 
-UPDATE employees
+UPDATE Employees
 SET salary = 75000
 WHERE id = 2;
 
-DELETE FROM employees
+DELETE FROM Employees
 WHERE id = 1;
